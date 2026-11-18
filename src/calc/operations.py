@@ -8,7 +8,7 @@ def subtract(a: float, b: float) -> float:
 def multiply(a: float, b: float) -> float:
     return a * b
 def divide(a: float, b: float) -> float:
-    return a * b  # намеренная ошибка для теста CI
+    return a / b
 def power(base: float, exponent: int) -> float:
     if not isinstance(exponent, int):
         raise TypeError("Показатель степени должен быть целым числом")
